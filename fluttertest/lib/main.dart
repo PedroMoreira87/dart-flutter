@@ -1,10 +1,11 @@
-import 'dart:typed_data';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'firebase_options.dart';
 import 'package:flutter/material.dart';
 
 import 'upload_file_button.dart';
 import 'image_button.dart';
+import 'image_select_bloc.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,12 +18,15 @@ void main() async {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'MyShop',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
+    return BlocProvider(
+      create: (context) => ImageSelectCubit(),
+      child: MaterialApp(
+        title: 'MyShop',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home: MyHomePage(),
       ),
-      home: MyHomePage(),
     );
   }
 }
@@ -33,19 +37,18 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  Uint8List? _image;
+  String? _image;
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
         children: [
-          if (_image != null)
-              ImageButton(_image),
+          ImageButton(),
+          ImageButton(),
           Center(
             child: UploadFileButton((value) {
               setState(() {
-                print(_image);
                 _image = value;
               });
             }),

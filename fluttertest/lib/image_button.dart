@@ -1,19 +1,25 @@
-import 'dart:typed_data';
-import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'image_select_bloc.dart';
 
 class ImageButton extends StatelessWidget {
-  String? image;
-
-  ImageButton(this.image);
+  const ImageButton();
 
   @override
   Widget build(BuildContext context) {
-    print(image);
-    return IconButton(
-      icon: Image.network(image!),
-      iconSize: 50,
-      onPressed: () {},
+    return BlocBuilder<ImageSelectCubit, ImageSelectState>(
+      builder: (context, state) {
+        if (state.imageUrl != null) {
+          return IconButton(
+            icon: Image.network(state.imageUrl!),
+            iconSize: 50,
+            onPressed: () {},
+          );
+        } else {
+          return Container();
+        }
+      },
     );
   }
 }

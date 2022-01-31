@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:firebase_storage/firebase_storage.dart';
-import 'package:flutter_dropzone/flutter_dropzone.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'dart:typed_data';
 import 'dart:io';
+
+import 'package:fluttertest/image_select_bloc.dart';
 
 class UploadFileButton extends StatelessWidget {
   final Function(String?) callback;
@@ -26,14 +28,16 @@ class UploadFileButton extends StatelessWidget {
         fileName = result.files.first.name;
       }
 
-      final metadata = SettableMetadata(
-          customMetadata: {"origin": "[\"*\"]","responseHeader": "[\"Content-Type\"]","method": "[\"GET\", \"HEAD\"]","maxAgeSeconds": "3600"});
       /* upload to storage */
       await FirebaseStorage.instance
           .ref('uploads/$fileName')
-          .putData(fileBytes!, metadata);
-      return FirebaseStorage.instance
+          .putData(fileBytes!);
+      String imageUrl = await FirebaseStorage.instance
           .ref('uploads/$fileName').getDownloadURL();
+
+      final imageSelectCubit = BlocProvider.of<ImageSelectCubit>(context);
+      imageSelectCubit.imageSelected(imageUrl);
+      return imageUrl;
     } else {
       return null;
       // User canceled the picker
