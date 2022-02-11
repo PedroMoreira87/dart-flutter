@@ -5,7 +5,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'dart:typed_data';
 import 'dart:io';
 
-import 'package:flutter_cubit_example/image_select_bloc.dart';
+import 'package:cubit_example/image_select_bloc.dart';
 
 class UploadFileButton extends StatelessWidget {
   final Function(String?) callback;
