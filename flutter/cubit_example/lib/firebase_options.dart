@@ -41,20 +41,8 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCUmFIBQeZWiYT4sL3cdz-sBkVIMhEVnp4',
-    appId: '1:282978557858:web:a2bd8350a8e204e3935cfb',
-    messagingSenderId: '282978557858',
-    projectId: 'abbit-landing-page',
-    authDomain: 'abbit-landing-page.firebaseapp.com',
-    storageBucket: 'abbit-landing-page.appspot.com',
-    measurementId: 'G-HWRJ94WBEW',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAvm5-ylfTolcJ1N44d7XqUKCRRpSCdxiA',
-    appId: '1:282978557858:android:72ba78eb93837c22935cfb',
-    messagingSenderId: '282978557858',
-    projectId: 'abbit-landing-page',
-    storageBucket: 'abbit-landing-page.appspot.com',
   );
 }
