@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.12.0" />
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage-10.2.6" />
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-3.1.7" />
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core_web-1.5.4" />
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/firebase_storage_web-3.2.7" />
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/file_picker-4.3.3" />
+      <root url="file://$PROJECT_DIR$/../../../../Development/Sdk/Flutter/.pub-cache/hosted/pub.dartlang.org/cloud_firestore_web-2.6.7" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
