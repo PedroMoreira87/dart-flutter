@@ -1,39 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6563fa3e-88cc-4424-91d6-778c3a5d34a8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dart-frutter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.dart_tool/package_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.dart_tool/package_config_subset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.dart_tool/version" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.flutter-plugins" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.flutter-plugins-dependencies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/cubit_example.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/.packages" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/android/local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flutter/cubit_example/lib/generated_plugin_registrant.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/cubit_example/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter/cubit_example/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/meals_app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/flutter/meals_app/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/personal_expenses_app/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/flutter/personal_expenses_app/android/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/personal_expenses_app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/flutter/personal_expenses_app/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flutter/shop_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/flutter/shop_app/pubspec.yaml" afterDir="false" />
+    <list default="true" id="6563fa3e-88cc-4424-91d6-778c3a5d34a8" name="Changes" comment="Added new app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +12,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -51,16 +23,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "D:/IdeaProjects/Trabalho/dev-training-fe/dev_training_project",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,7 +44,17 @@
       <workItem from="1644793555105" duration="128000" />
       <workItem from="1645796079981" duration="9000" />
       <workItem from="1646754000818" duration="297000" />
+      <workItem from="1657055502495" duration="407000" />
+      <workItem from="1657110643499" duration="17000" />
     </task>
+    <task id="LOCAL-00001" summary="Added new app">
+      <created>1657055586580</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657055586580</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,5 +70,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added new app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new app" />
   </component>
 </project>
